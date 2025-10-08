@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Set
 from collections import deque
 class Graph: 
     def __init__(self): 
-        self.adj: Dict[Any, List[Any]] = {}
+        self.adj: Dict[Any, List[Any]] = {} 
     def add_vertex(self, v: Any) -> None:
         self.adj.setdefault(v, [])
     def add_edge(self, u: Any, v: Any, directed: bool = False) -> None:
