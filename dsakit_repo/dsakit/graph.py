@@ -1,7 +1,7 @@
 from typing import Any, Dict, List, Set
 from collections import deque
 class Graph:
-    def __init__(self):
+    def __init__(self): 
         self.adj: Dict[Any, List[Any]] = {}
     def add_vertex(self, v: Any) -> None:
         self.adj.setdefault(v, [])
