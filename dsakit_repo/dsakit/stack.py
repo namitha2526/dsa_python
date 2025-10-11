@@ -4,7 +4,7 @@ class Stack:
         self._data: List[Any] = []
     def push(self, v: Any) -> None: 
         self._data.append(v)
-    def pop(self) -> Any:
+    def pop(self) -> Any: 
         if not self._data:
             raise IndexError('pop from empty stack')
         return self._data.pop()
