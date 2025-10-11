@@ -2,7 +2,7 @@ from typing import Any, List
 class Stack:
     def __init__(self):
         self._data: List[Any] = []
-    def push(self, v: Any) -> None:
+    def push(self, v: Any) -> None: 
         self._data.append(v)
     def pop(self) -> Any:
         if not self._data:
